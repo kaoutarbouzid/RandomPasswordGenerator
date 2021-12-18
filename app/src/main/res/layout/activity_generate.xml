@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#112031"
+    android:orientation="vertical"
+    tools:context=".Generate">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="GENERATED PASSWORD"
+            android:textColor="#345B63"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:background="@drawable/background"
+            android:drawableEnd="@drawable/copy"
+            android:gravity="center"
+            android:onClick="copy"
+            android:paddingEnd="18dp"
+            android:text="generated password"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="SETTINGS"
+            android:textColor="#345B63"
+            android:textSize="15dp" />
+
+        <CheckBox
+            android:id="@+id/box1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/background"
+            android:buttonTint="#D4ECDD"
+            android:onClick="onCheckboxClicked"
+            android:text="Include Numbers"
+            android:textAlignment="textStart"
+            android:textColor="#D4ECDD"
+            android:textSize="20dp" />
+
+        <CheckBox
+            android:id="@+id/box2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/background"
+            android:buttonTint="#D4ECDD"
+            android:onClick="onCheckboxClicked"
+            android:text="Include Lowercase Characters"
+            android:textAlignment="textStart"
+            android:textColor="#D4ECDD"
+            android:textSize="20dp" />
+
+
+        <CheckBox
+            android:id="@+id/box3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/background"
+            android:buttonTint="#D4ECDD"
+            android:onClick="onCheckboxClicked"
+            android:text="Include Uppercase Characters"
+            android:textAlignment="textStart"
+            android:textColor="#D4ECDD"
+            android:textSize="20dp" />
+
+        <CheckBox
+            android:id="@+id/box4"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/background"
+            android:buttonTint="#D4ECDD"
+            android:onClick="onCheckboxClicked"
+            android:text="Include Symbols"
+            android:textAlignment="textStart"
+            android:textColor="#D4ECDD"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/view1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="LENGTH"
+            android:textColor="#345B63"
+            android:textSize="15dp" />
+
+        <SeekBar
+            android:id="@+id/seekBar2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="25"
+            android:min="5"
+            android:thumbTint="#D4ECDD" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/generate"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/gradient"
+            android:text="GENERATE"
+            android:textColor="@android:color/white"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
+

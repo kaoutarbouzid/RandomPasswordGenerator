@@ -1,0 +1,12 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#345B63</item>
+        <item name="colorPrimaryDark">#152D35</item>
+        <item name="colorAccent">#345B63</item>
+        <item name="android:text">Password Generator</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+</resources>
