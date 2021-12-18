@@ -1,15 +1,13 @@
-# RandomPasswordGenerator
+# Random Password Generator
 
 Application Mobile Android permet de générer des mots de passe aléatoires.
 
-* Interface d’accueil 
-L’utilisateur peut choisir entre les deux services.
-![Screenshot](interface1.png)
+* Interface d’accueil :  L’utilisateur peut choisir entre les deux services.
 
-* Interface de génération du mot de passe
-L’utilisateur peut générer un nouveau mot de passe selon les critères choisis.
-![Screenshot](interface2.png)
+* Interface « Generate password » :  L’utilisateur peut générer un nouveau mot de passe selon les critères choisis.
 
-* Interface de vérification du mot de passe
-L’utilisateur peut tester la robustesse  de son mot de passe.
-![Screenshot](interface3.png)
+* Interface « Check password » :  L’utilisateur peut tester la robustesse  de son mot de passe.
+
+
+https://user-images.githubusercontent.com/66513214/146658207-b9612569-fb9d-4abe-9da6-211f18d488da.mp4
+
